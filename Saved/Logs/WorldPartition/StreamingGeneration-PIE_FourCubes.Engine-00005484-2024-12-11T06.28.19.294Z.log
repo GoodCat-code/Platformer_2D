@@ -1,0 +1,59 @@
+[+] Containers:
+ |- [+] Container: /Engine/WorldPartition/UnitTests/FourCubes
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:00EC8DF34A8D4DDCA76436BEE2069F4C BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- Guid:57AC84E74C479744FC93558EA2BBCBFE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2145599411 Label:Cube4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-628.000 Y=-628.000 Z=-128.000), Max=(X=-372.000 Y=-372.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:C22E344A45480EF3C36683BB6E4586E7 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2069607409 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=372.000 Y=-628.000 Z=-128.000), Max=(X=628.000 Y=-372.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:E9D4BB9F4F480118E488DD9580D758E8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2000689408 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=372.000 Y=372.000 Z=-128.000), Max=(X=628.000 Y=628.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- Guid:F866909741E0F3490AD6D995CA635BD0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2128445410 Label:Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-628.000 Y=372.000 Z=-128.000), Max=(X=-372.000 Y=628.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:00EC8DF34A8D4DDCA76436BEE2069F4C BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:57AC84E74C479744FC93558EA2BBCBFE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2145599411 Label:Cube4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-628.000 Y=-628.000 Z=-128.000), Max=(X=-372.000 Y=-372.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:C22E344A45480EF3C36683BB6E4586E7 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2069607409 Label:Cube2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=372.000 Y=-628.000 Z=-128.000), Max=(X=628.000 Y=-372.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:E9D4BB9F4F480118E488DD9580D758E8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2000689408 Label:Cube SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=372.000 Y=372.000 Z=-128.000), Max=(X=628.000 Y=628.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:F866909741E0F3490AD6D995CA635BD0 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_E04F43E60BD93A5A01_2128445410 Label:Cube3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-628.000 Y=372.000 Z=-128.000), Max=(X=-372.000 Y=628.000 Z=128.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1 ListedInSceneOutliner:1 IsMainWorldOnly:0
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Engine/WorldPartition/UnitTests/FourCubes
+----------------------------------------------------------------------------------------------------------------
+FourCubes - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of FourCubes Persistent Level
+ |- Always loaded Actor Count: 5 
+ |- Actor Path: /Engine/WorldPartition/UnitTests/FourCubes.FourCubes:PersistentLevel.StaticMeshActor_UAID_E04F43E60BD93A5A01_2000689408
+ |- Actor Package: /Engine/__ExternalActors__/WorldPartition/UnitTests/FourCubes/C/62/2DJI7NFF8AAXDPLRQJDHKL
+ |- Actor Path: /Engine/WorldPartition/UnitTests/FourCubes.FourCubes:PersistentLevel.StaticMeshActor_UAID_E04F43E60BD93A5A01_2069607409
+ |- Actor Package: /Engine/__ExternalActors__/WorldPartition/UnitTests/FourCubes/4/CB/1XFTXFFU7EDO0XCXCLZYY9
+ |- Actor Path: /Engine/WorldPartition/UnitTests/FourCubes.FourCubes:PersistentLevel.StaticMeshActor_UAID_E04F43E60BD93A5A01_2128445410
+ |- Actor Package: /Engine/__ExternalActors__/WorldPartition/UnitTests/FourCubes/7/FS/92DHQE76IZKR9HMUCOL6BB
+ |- Actor Path: /Engine/WorldPartition/UnitTests/FourCubes.FourCubes:PersistentLevel.StaticMeshActor_UAID_E04F43E60BD93A5A01_2145599411
+ |- Actor Package: /Engine/__ExternalActors__/WorldPartition/UnitTests/FourCubes/9/0R/6AN4TO7TAQDBOA84T8PRDW
+ |- Actor Path: /Engine/WorldPartition/UnitTests/FourCubes.FourCubes:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Engine/__ExternalActors__/WorldPartition/UnitTests/FourCubes/5/US/XC6238BBQ9YNW4FRFIVLD5
+
+----------------------------------------------------------------------------------------------------------------
+FourCubes - Runtime Spatial Hash
+----------------------------------------------------------------------------------------------------------------
+[+] StreamingGrids
+ |- [+] MainGrid
+ |   |-             Origin: X=0.000 Y=0.000 Z=0.000
+ |   |-          Cell Size: 1600
+ |   |-       World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |-      Loading Range: 1600.00
+ |   |- Block Slow Loading: No
+ |   |-  ClientOnlyVisible: No
+ |   |- 
+ |   |- [+] Grid Levels: 1
+ |   |   |- Level  0: Cell Count    0 | Cell Size    1600 | Actor Count    0 (0.0%)
+ |   |- 
+ |   |- [+] Content of Grid Level 0
+ |   |- 

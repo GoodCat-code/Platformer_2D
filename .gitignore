@@ -1,0 +1,15 @@
+﻿# Unreal Engine
+Saved/
+Intermediate/
+DerivedDataCache/
+Binaries/
+*.log
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.ipch
+*.pch

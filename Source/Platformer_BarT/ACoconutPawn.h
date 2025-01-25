@@ -1,9 +1,8 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Components/SphereComponent.h"
 #include "ACoconutPawn.generated.h"
 
 UCLASS()
@@ -12,18 +11,17 @@ class PLATFORMER_BART_API AACoconutPawn : public APawn
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this pawn's properties
 	AACoconutPawn();
+	virtual void Tick(float DeltaTime) override;
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Components") USceneComponent* Root_component; // Root Component
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Components") UStaticMeshComponent* Coconut_mesh; // Coconut ball
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Components") USphereComponent* Coconut_sphere_collision;	// Sphere coliision for coconut ball
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Components") UStaticMeshComponent* Platform_mesh;	// Platform mesh for character mounting
+
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 };

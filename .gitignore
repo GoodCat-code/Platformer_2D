@@ -5,7 +5,8 @@ DerivedDataCache/
 Binaries/
 *.log
 *_Auto*.uasset
-cachedassetregistry_*.bin
+Saved/CachedAssetRegistry_*.bin
+CrashReportClient.ini
 
 # Visual Studio
 .vs/
@@ -21,3 +22,4 @@ Saved/Telemetry/Telemetry.json
 Saved/SourceControl/UncontrolledChangelists.json
 Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
 *.log
+Saved/AutoScreenshot.png
